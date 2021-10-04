@@ -10,7 +10,15 @@ Just added a mainClass configuration so java -jar works out of the box.
 mvn package
 ````
 
-## Run: about 100ms..150ms
+## Run
+Measure how long it takes for various versions
+
+### 1.8 : 100ms..150ms
+````
+java -jar target/cli-1.0-SNAPSHOT.jar
+````
+
+### 15: 80ms
 ````
 java -jar target/cli-1.0-SNAPSHOT.jar
 ````
